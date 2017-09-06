@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -f Dockerfile -t $DOCKER_USERNAME/travis-ci-build-stages-demo .
+  - docker build -f Dockerfile -t $DOCKER_USER/travis-ci-build-stages-demo .
   - docker images  
   - docker ps -a
 
