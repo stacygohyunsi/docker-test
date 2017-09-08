@@ -1,0 +1,3 @@
+[submodule "node-myapiai"]
+	path = node-myapiai
+	url = https://github.com/stacygohyunsi/node-myapiai
